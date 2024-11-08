@@ -1,0 +1,20 @@
+{
+  "event": [
+    {
+      "title": "Manos a la Roca",
+      "weekday": "Sábado",
+      "day": 14,
+      "hourStart": "9am",
+      "hourEnd": "12pm",
+      "img": ""
+    },
+    {
+      "title": "Manos a la Roca",
+      "weekday": "Sábado",
+      "day": 14,
+      "hourStart": "9am",
+      "hourEnd": "12pm",
+      "img": ""
+    }
+  ]
+}

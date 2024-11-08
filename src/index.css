@@ -4,6 +4,8 @@
 
 @layer base {
   body {
+    @apply flex min-h-0;
+    min-height: 100dvh;
   }
 }
 
@@ -12,12 +14,27 @@
   margin: 0;
 }
 
+#root {
+  @apply flex grow flex-col;
+}
+
 body {
+  @apply text-adem-primary-900;
   font-family: "Inter";
 }
 
 h2 {
-  font-size: 3rem;
-  font-weight: 900;
-  text-transform: uppercase;
+  @apply text-[3rem] font-black uppercase text-adem-secondary-400;
+}
+
+h3 {
+  @apply text-[2rem] font-black uppercase text-adem-secondary-400;
+}
+
+nav a.active {
+  @apply font-black text-adem-secondary-400;
+}
+
+.hero-clip-path {
+  clip-path: polygon(10% 0%, 100% 0%, 100% 100%, 0% 100%);
 }
