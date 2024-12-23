@@ -8,6 +8,12 @@ import AboutPage from "./pages/aboutPage/AboutPage";
 import Directiva from "./pages/aboutPage/Directiva";
 import AboutInfo from "./pages/aboutPage/AboutInfo";
 import Documents from "./pages/aboutPage/Documents";
+import MembersPage from "./pages/membersPage/MembersPage";
+import EventPage from "./pages/eventsPage/EventPage";
+import PhotosPage from "./pages/photosPage/PhotosPage";
+import ContactPage from "./pages/contactPage/ContactPage";
+import NewsPage from "./pages/newsPage/NewsPage";
+import NewsArticle from "./pages/newsPage/NewsArticle";
 
 const router = createBrowserRouter([
   {
@@ -39,8 +45,28 @@ const router = createBrowserRouter([
       },
       {
         path: "noticias",
-        element: "",
-      }
+        element: <NewsPage />,
+      },
+      {
+        path: "noticias/:articleId",
+        element: <NewsArticle />,
+      },
+      {
+        path: "eventos",
+        element: <EventPage />,
+      },
+      {
+        path: "galería",
+        element: <PhotosPage />,
+      },
+      {
+        path: "miembros",
+        element: <MembersPage />,
+      },
+      {
+        path: "contacto",
+        element: <ContactPage />,
+      },
     ],
   },
 ]);

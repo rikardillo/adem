@@ -14,9 +14,9 @@ function AboutNav() {
 
 export default function AboutPage() {
   return (
-    <SectionContainer variant="blue" className='grow'>
-      <AboutNav />
-      <Outlet />
-    </SectionContainer>
+      <SectionContainer variant="blue" className="grow h-dvh" >
+        <AboutNav />
+        <Outlet />
+      </SectionContainer>
   );
 }

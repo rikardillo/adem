@@ -18,7 +18,7 @@ export default function MemberSection() {
           <p>Conoce más sobre los beneficios de pertenecer a la ADEM</p>
         </div>
       </div>
-      <div className="absolute right-0 h-full max-h-[1000px] w-full max-w-[300px] overflow-hidden">
+      <div className="absolute right-0 top-0 h-full max-h-[1000px] w-full max-w-[300px] overflow-hidden">
         <img src={fotoMiembros} alt="" />
       </div>
     </SectionContainer>

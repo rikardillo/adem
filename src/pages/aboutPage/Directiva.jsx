@@ -36,7 +36,7 @@ export default function Directiva() {
       </p>
       <p>Actualmente en el ciclo 2024-2025 está compuesta por:</p>
       <div className="flex justify-between gap-4">
-        <ProfileCard name="Luis" lastName="Niño" position="Presidente" />
+        <ProfileCard name="Luis" lastName="Morales" position="Presidente" />
         <ProfileCard name="Gadea" lastName="Pérez" position="Vice-Presidente" />
         <ProfileCard name="Miguel" lastName="Roa" position="Tesorero" />
         <ProfileCard name="Paola" lastName="Seguel" position="Secretaria" />

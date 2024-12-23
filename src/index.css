@@ -31,6 +31,10 @@ h3 {
   @apply text-[2rem] font-black uppercase text-adem-secondary-400;
 }
 
+h4 {
+  @apply text-[1.4rem] font-black uppercase text-adem-primary-400
+}
+
 nav a.active {
   @apply font-black text-adem-secondary-400;
 }

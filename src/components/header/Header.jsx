@@ -16,7 +16,7 @@ function LogoLink() {
 
 function HeaderContainer({ children }) {
   return (
-    <header className="sticky top-0 z-10 flex h-[4rem] w-full items-center justify-center bg-gradient-to-r from-adem-primary-950 to-adem-primary-700 py-1">
+    <header className="fixed top-0 z-50 flex h-[4rem] w-full items-center justify-center ">
       {children}
     </header>
   );
