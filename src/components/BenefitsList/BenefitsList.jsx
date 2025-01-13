@@ -10,10 +10,14 @@ const benefits = [
 
 export default function BenefitsList() {
   return (
-    <ul className="flex list-inside list-disc flex-col gap-2">
-      {benefits.map((benefit) => (
-        <BenefitsItem text={benefit} />
-      ))}
-    </ul>
+    <>
+      <h3>Beneficios membresía ADEM:</h3>
+      <p>Conoce los beneficios de ser miembro de ADEM!</p>
+      <ul className="flex list-inside list-disc flex-col gap-2">
+        {benefits.map((benefit) => (
+          <BenefitsItem text={benefit} />
+        ))}
+      </ul>
+    </>
   );
 }
